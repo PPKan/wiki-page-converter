@@ -1,0 +1,22 @@
+{
+  "name": "wiki page converter",
+  "description": "convert wiki mobile page to desktop page",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [ {
+    "matches": ["*://*/*"],
+    "js": ["scripts.js"]
+  } ],
+  "default_icon": {
+    "16": "/images/wicon16.png",
+    "32": "/images/wicon32.png",
+    "48": "/images/wicon48.png",
+    "128": "/images/wicon128.png"
+  },
+  "icons": {
+    "16": "/images/wicon16.png",
+    "32": "/images/wicon32.png",
+    "48": "/images/wicon48.png",
+    "128": "/images/wicon128.png"
+  }
+}
